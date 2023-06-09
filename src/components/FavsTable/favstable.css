@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div-title {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.div-table {
+  max-height: 80vh; /* Altura máxima deseada */
+  overflow-y: auto;
+}
+
+/* Estilos de la barra de desplazamiento */
+.div-table::-webkit-scrollbar {
+  width: 8px; /* Anchura de la barra */
+}
+
+.div-table::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color del fondo de la barra */
+}
+
+.div-table::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color del "pulgar" de la barra */
+  border-radius: 4px; /* Borde redondeado del "pulgar" */
+}
+
+.div-table::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color del "pulgar" al pasar el cursor */
+}
+
+.edit-btn,
+.delete-btn,
+.show-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.material-icons {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.div-btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.add-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.add-button {
+  background-color: #f5f8f5;
+  color: rgb(7, 7, 7);
+  border: none;
+  border-radius: 50%; /* Hace que el botón sea redondo */
+  width: 40px; /* Ajusta el ancho del botón */
+  height: 40px; /* Ajusta la altura del botón */
+  padding: 0; /* Elimina el relleno interno */
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-button i {
+  vertical-align: middle;
+  margin-right: 5px;
+}

@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main_div {
+  width: 70%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 16px;
+  background-color: white;
+}
+
+.title_div {
+  background-color: #15a083;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.div_form {
+  padding-top: 20px;
+  background-color: white;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.div_img {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: -20px;
+}
+
+img {
+  width: 100%;
+  padding-left: 12px;
+  border-radius: 20px;
+}
+
+.div_description {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  margin-bottom: -20px;
+}
+
+.div_button {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.div_forgot {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_button {
+  width: 37%;
+  height: 55%;
+  border: none;
+  border-radius: 5px;
+  background-color: #15a083;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.register_button {
+  width: 37%;
+  height: 55%;
+  border: none;
+  border-radius: 5px;
+  background-color: #15a083;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+input {
+  color: #999;
+  text-indent: 10px;
+  width: 80%;
+  height: 60%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  outline: none;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.back-button-container {
+  margin-top: 20px;
+}
